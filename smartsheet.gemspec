@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.specification_version = 4
 
   s.add_runtime_dependency(%q<faraday>.freeze, [">= 0"])
+  s.add_runtime_dependency(%q<faraday-gzip>.freeze, [">= 2.0.1"])
   s.add_runtime_dependency(%q<plissken>.freeze, ["~> 1.2"])
   s.add_runtime_dependency(%q<awrence>.freeze, ["~> 1.0"])
   s.add_development_dependency(%q<bundler>.freeze, [">= 1.17"])
