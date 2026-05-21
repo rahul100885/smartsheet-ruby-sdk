@@ -1,5 +1,6 @@
 require 'faraday'
 require 'faraday/middleware'
+require 'faraday/gzip'
 require 'smartsheet/api/request'
 require 'smartsheet/api/faraday_adapter/middleware/faraday_error_translator'
 require 'smartsheet/api/faraday_adapter/middleware/response_parser'
